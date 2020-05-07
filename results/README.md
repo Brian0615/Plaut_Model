@@ -1,5 +1,10 @@
 # Results
 
+### May 02-03, 2020
+> #### Base Simulation
+> * **Description**: Set of simulations including all major changes since the Jan 21, 2020 simulations (i.e. the ones used for the Feb 2020 paper.
+> * **Simulation Folder**: `BASE-may02-03`
+
 ### Mar 30, 2020
 > #### All Combinations of Graphemes
 > * **Description**: Testing Results of all possible words+nonwords composed of one onset, one vowel, and one coda

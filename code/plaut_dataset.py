@@ -75,7 +75,7 @@ class plaut_dataset(Dataset):
 
         return {"type": self.df.loc[index, "type"], # type of word
                 "orth": self.df.loc[index, "orth"], # orthography (e.g. ace)
-                "phon": self.df.loc[index, "phon"], # phonography (e.g. /As/)
+                "phon": self.df.loc[index, "phon"], # phonology (e.g. /As/)
                 "frequency": torch.tensor(self.df.loc[index, "log_freq"], dtype=torch.float), # the frequency AFTER log transform
                 "graphemes": torch.tensor(self.df.loc[index, 'graphemes'], dtype=torch.float), # vector of graphemes representing orthography
                 "phonemes": torch.tensor(self.df.loc[index, 'phonemes'], dtype=torch.float) }# vector of phonemes representing phonology
